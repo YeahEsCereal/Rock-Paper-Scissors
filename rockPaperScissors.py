@@ -33,9 +33,9 @@ window.geometry("500x500")
 window.resizable(False, False)
 ctk.set_appearance_mode("dark")
 
-RockPNG = ctk.CTkImage(Image.open("funGamesOrImportant/funGamesOrSmth/Rock.png"), size = (200, 200))
-PaperPNG = ctk.CTkImage(Image.open("funGamesOrImportant/funGamesOrSmth/Paper.png"), size = (200, 200))
-ScissorsPNG = ctk.CTkImage(Image.open("funGamesOrImportant/funGamesOrSmth/Scissors.png"), size = (200, 200))
+RockPNG = ctk.CTkImage(Image.open("Rock.png"), size = (200, 200))
+PaperPNG = ctk.CTkImage(Image.open("Paper.png"), size = (200, 200))
+ScissorsPNG = ctk.CTkImage(Image.open("Scissors.png"), size = (200, 200))
 
 ctk.CTkLabel(window, text = "Rock Paper Scissors", font = ("Arial", 35)).pack(pady = 10)
 
