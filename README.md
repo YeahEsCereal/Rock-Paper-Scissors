@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-Rock Paper Scissors made with customtkinter in python
+The classic Rock Paper Scissors game made with the customtkinter module in python
