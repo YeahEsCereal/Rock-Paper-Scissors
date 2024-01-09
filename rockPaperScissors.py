@@ -48,8 +48,9 @@ Us.place(x = 25, y = 100)
 Computer = ctk.CTkLabel(window, image = None, font = ("Arial", 25), text = "")
 Computer.place(x = 275, y = 100)
 
-Options = ctk.CTkOptionMenu(window, values = ["Rock", "Paper", "Scissors"], command = changeOurPhoto)
-Options.place(x = 180, y = 325)
+Options = ctk.CTkSegmentedButton(window, values = ["Rock", "Paper", "Scissors"], command = changeOurPhoto)
+Options.set("Rock")
+Options.place(x = 173.5, y = 325)
 
 Go = ctk.CTkButton(window, text = "Go", command = game)
 Go.place(x = 180, y = 375)
